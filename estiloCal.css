@@ -21,6 +21,7 @@ body {
 }
 .container {
   margin-top: 4%;
+  margin: 14%;
   border: 2px solid gray;
   width: 450px;
   height: 380px;
