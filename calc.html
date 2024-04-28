@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculadora</title>
+    <link rel="stylesheet" href="./estiloCal.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora</h1>
+      <input  id="scren" type="text" value="1" readonly onmousedown="return false;" />
+
+      <div>
+        <button class="botones" onClick="agregar('1')" >1</button>
+        <button class="botones" onClick="agregar('2')" >2</button>
+        <button class="botones" onClick="agregar('3')" " >3</button>
+        <input class="botones" onClick="agregar('+')" type="button" value="+" />
+      </div>
+   
+      <div>
+        <button class="botones" onClick="agregar('4')">4</button>
+        <button  class="botones" onClick="agregar('5')">5</button>
+        <button class="botones" onClick="agregar('6')">6</button>
+        <input class="botones" type="button" value="-" onClick="agregar('-')" />
+      </div>
+      <div>
+        <button class="botones" onClick="agregar('7')">7</button>
+        <button class="botones" onClick="agregar('8')">8</button>
+        <button class="botones" onClick="agregar('9')">9</button>
+        <input class="botones" onClick="agregar('*')" type="button" value="*" />
+        
+    </div>
+
+      <div>
+        <input class="botones" onClick="agregar('.')" type="button" value="." />
+        <input class="botones" onClick="agregar('/')" type="button" value="/" />
+        <button onclick="borrar()" class="botones">C</button>
+        <button onclick="calcular()" class="botones"  >=</button>
+    </div>
+     
+    </div>
+    <script src="/calculadora/scriptCalc.js"></script>
+  </body>
+</html>
