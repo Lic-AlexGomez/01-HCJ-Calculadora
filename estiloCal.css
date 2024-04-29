@@ -54,14 +54,15 @@ body {
     border: 3px outset black;
  
 }
-.botones:active {
+.botones:active:not(.igual,.borrar) {
   border: 2px inset black;
   background-color: rgba(200, 198, 198, 0.388);
 }
-.botones:hover{
+.botones:hover:not(.igual,.borrar){
   
   background-color: rgba(180, 163, 163, 0.388);
 }
+
 .igual{
   background-color: rgb(105, 176, 153);
 }
