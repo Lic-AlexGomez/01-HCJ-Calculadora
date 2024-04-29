@@ -9,34 +9,40 @@
   <body>
     <div class="container">
       <h1>Calculadora</h1>
-      <input  id="scren" type="text" value="0" readonly onmousedown="return false;" />
+      <input  id="scren" type="text" value="1" readonly onmousedown="return false;" />
 
+      <div>
+        <button class="botones" onClick="raiz()">Raiz</button>
+        <button class="botones" onClick="potencia()">x^2</button>
+        <button onclick="borrar()" class="botones borrar">C</button>
+        <input class="botones" onClick="agregar('+')" type="button" value="+" />     
+      </div>
+   
       <div>
         <button class="botones" onClick="agregar('1')" >1</button>
         <button class="botones" onClick="agregar('2')" >2</button>
-        <button class="botones" onClick="agregar('3')" " >3</button>
-        <input class="botones" onClick="agregar('+')" type="button" value="+" />
+        <button class="botones" onClick="agregar('3')" >3</button>
+        <input class="botones" type="button" value="-" onClick="agregar('-')" />
       </div>
-   
       <div>
         <button class="botones" onClick="agregar('4')">4</button>
         <button  class="botones" onClick="agregar('5')">5</button>
         <button class="botones" onClick="agregar('6')">6</button>
-        <input class="botones" type="button" value="-" onClick="agregar('-')" />
-      </div>
-      <div>
-        <button class="botones" onClick="agregar('7')">7</button>
-        <button class="botones" onClick="agregar('8')">8</button>
-        <button class="botones" onClick="agregar('9')">9</button>
         <input class="botones" onClick="agregar('*')" type="button" value="*" />
         
     </div>
-
-      <div>
-        <input class="botones" onClick="agregar('.')" type="button" value="." />
+    <div>
+        <button class="botones" onClick="agregar('7')">7</button>
+        <button class="botones" onClick="agregar('8')">8</button>
+        <button class="botones" onClick="agregar('9')">9</button>
         <input class="botones" onClick="agregar('/')" type="button" value="/" />
-        <button onclick="borrar()" class="botones">C</button>
-        <button onclick="calcular()" class="botones"  >=</button>
+
+    </div>
+      <div>
+        <button class="botones" onClick="aboluto()">+/-</button>
+        <button class="botones" onClick="agregar('0')">0</button>
+        <input class="botones" onClick="agregar('.')" type="button" value="." />
+        <button onclick="calcular()" class="botones igual"  >=</button>
     </div>
      
     </div>

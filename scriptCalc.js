@@ -12,3 +12,16 @@ function calcular(){
 }
 
 
+
+function raiz(){
+    screen.value = Math.sqrt(screen.value);
+}
+function potencia(){
+    screen.value = Math.pow(screen.value,2);
+}
+function aboluto(){
+   
+        screen.value = screen.value*-1;
+
+   
+}

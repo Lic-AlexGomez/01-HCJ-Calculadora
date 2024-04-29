@@ -22,14 +22,13 @@ body {
 .container {
   margin-top: 4%;
   border: 2px solid gray;
-  width: 400px;
+  width: 450px;
   height: 380px;
   border-radius: 10px; 
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: rgba(200, 198, 198, 0.388);
-   margin:20px 4%;
   
 }
 #scren{
@@ -56,4 +55,13 @@ body {
 }
 .botones:hover{
   background-color: rgba(180, 163, 163, 0.388);
+}
+.igual{
+  background-color: rgb(105, 176, 153);
+}
+.borrar{
+  background-color: rgb(255, 0, 0);
+}
+.numeros{
+  background-color: beige;
 }
