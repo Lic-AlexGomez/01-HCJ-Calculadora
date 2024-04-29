@@ -21,7 +21,9 @@ function potencia(){
 }
 function aboluto(){
    
-        screen.value = screen.value*-1;
+        screen.value = screen.value*-1;  
+}
 
-   
+function listeninig(){
+    screen.value = screen.value/100;
 }

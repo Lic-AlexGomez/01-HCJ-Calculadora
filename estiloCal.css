@@ -46,15 +46,20 @@ body {
     border: outset ;
 }
 .botones{
-  cursor: pointer;
-    
+    cursor: pointer;
     width:70px;
     font-size: 1.5rem;
-    margin: 3px;
+    margin: 4px;
     height: auto;
-
+    border: 3px outset black;
+ 
+}
+.botones:active {
+  border: 2px inset black;
+  background-color: rgba(200, 198, 198, 0.388);
 }
 .botones:hover{
+  
   background-color: rgba(180, 163, 163, 0.388);
 }
 .igual{
